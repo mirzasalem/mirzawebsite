@@ -33,6 +33,7 @@
     </script>
     <!-- For all browsers -->
     <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/site-overrides.css">
     <meta http-equiv="cleartype" content="on">
     <!-- start custom head snippets -->
     <link rel="apple-touch-icon" sizes="57x57" href="../images/apple-touch-icon-57x57b32b.html?v=M44lzPylqQ">
@@ -144,61 +145,47 @@
       </div>
       <div class="archive">
         <h1 class="page__title">Publications</h1>
-        <ul>
-
+        <ul class="content-list publication-list">
           <li>
-            <strong>Autonomous Robot Navigation with SLAM, AMCL, and Real-Time User Interaction for Task Management and Identity Verification.</strong>
+            <strong><a href="https://ieeexplore.ieee.org/document/10928347">Autonomous Robot Navigation with SLAM, AMCL, and Real-Time User Interaction for Task Management and Identity Verification</a></strong>
+            <span class="item-desc">M. Salem. <span class="pub-venue">Proc. IEEE International Conference on Robotics, Automation, Artificial-Intelligence and Internet-of-Things (RAAICON)</span>, 2024.</span>
           </li>
-        
-        </p>
         </ul>
         <h1 class="page__title">Projects</h1>
         <hr />
-        <!-- <p>[ <a href="#############">
-            <strong>Google Scholar</strong>
-          </a> | <a href="https://www.researchgate.net/##############">
-            <strong>ResearchGate</strong>
-          </a>] </p> -->
-        <!-- <p>
-          <strong>[2020]</strong>
-        </p> -->
-
-
-
-
-        <ul>
-
+        <ul class="content-list">
           <li>
-            <strong>Django REST API – Library Management System.</strong>
+            <strong>Education Management Information System for an International NGO Microfinance Program</strong>
+            <span class="item-desc">Full-stack MIS (React, TypeScript, Django REST, PostgreSQL) supporting participant workflows, Excel import, role-based access, and an executive KPI dashboard, with AI-assisted suggestions for operational decision-making.</span>
           </li>
           <li>
-            <strong>Employee Register Web Application.</strong>
+            <strong><a href="https://github.com/mirzasalem/intelligent-api-monitoring-and-alert-system">Intelligent API Monitoring and Alert System</a></strong>
+            <span class="item-desc">Node.js/Express service that ingests API response metrics, scores anomalies, and uses Groq (LLaMA) to produce plain-English alerts stored in MongoDB; optional email notifications and a live dashboard for incident tracking.</span>
           </li>
           <li>
-            <strong>Autonomous indoor navigation car using ROS.</strong>
+            <strong><a href="https://github.com/mirzasalem/web-app-ros2-robot">Browser-Based Human–Robot Interaction Platform for a Differential-Drive Robot (ROS 2 Jazzy)</a></strong>
+            <span class="item-desc">Django REST and rclpy bridge for teleoperation, SLAM mapping, AMCL localization, and Nav2; React/Vite frontend for live map visualization and multi-user monitoring.</span>
           </li>
           <li>
-            <strong>Optimized waste truck routes in Ghana using data, reducing fuel consumption, and real-time app notifications.</strong>
+            <strong><a href="https://github.com/mirzasalem/ESP32-firmware-for-differential-drive-robot">ESP32 Firmware for a Differential-Drive Robot</a></strong>
+            <span class="item-desc">Low-level firmware for Buddy with L298N motor drive, quadrature encoder odometry, and a ROSArduinoBridge serial interface; pairs with diffdrive_arduino / ros2_control on the ROS 2 host for real-time motor control and odometry.</span>
           </li>
           <li>
-            <strong>API Control by JSON using ESP32.</strong>
+            <strong>Buddy — ROS 2 Jazzy Robotics Stack (URDF, Nav2, Teleop, ros2_control)</strong>
+            <span class="item-desc">ROS 2 mobile robotics platform integrating SLAM, AMCL, and Nav2 for autonomous navigation, with ESP32-based motor control, encoder feedback, ros2_control, and a web interface for teleoperation and monitoring (private repository available upon request).</span>
           </li>
           <li>
-            <strong>Commutation API Server for Autonomous Car.</strong>
-            <p>
-            <!-- >Commutation API Server for Autonomous Car. -->
-          </p>
+            <strong>Optimized Waste Truck Routes in Ghana</strong>
+            <span class="item-desc">Field deployment with <a href="https://cistechltd.com/">CIS Tech Ltd.</a> and the Government of Ghana: operational data analysis to replan collection routes, reduce fuel consumption, and deliver real-time notifications via a mobile application.</span>
           </li>
           <li>
-            <strong>Autonomous indoor navigation car using ROS.</strong>
+            <strong><a href="https://github.com/mirzasalem/library_management_api">Library Management System API</a></strong>
+            <span class="item-desc">Django REST Framework backend with user registration, role-based access (student/staff), book catalog management, and rent/return workflows.</span>
           </li>
           <li>
-            <strong>PID Motor Controller.</strong>
+            <strong>Autonomous Indoor Navigation Car Using ROS 1 Melodic</strong>
+            <span class="item-desc">Mobile robot on Ubuntu 18.04 with Jetson Nano and Arduino integration, supporting SLAM, localization, and autonomous navigation via the ROS Navigation Stack with LiDAR and encoder-based control.</span>
           </li>
-          <li>
-            <strong>Home Automation and Router UPS.</strong>
-          </li>
-        </p>
         </ul>
 
 
@@ -243,6 +230,7 @@
       </footer>
     </div>
     <script src="../assets/js/main.min.js"></script>
+    <script src="../assets/js/site-mobile.js"></script>
     <script>
       (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;

@@ -34,6 +34,13 @@
   padding-right: 0 !important;
 }
 
+/* Keep the profile photo a circle even if the image isn't square */
+.author__avatar img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center top;
+}
+
 .page__footer .social-icons {
   padding-left: 0;
   margin: 0;
